@@ -44,7 +44,7 @@ export default function App() {
     <div>
       <div>
         <h3>Login</h3>
-        <span role="alert">{errorMsg}</span>
+        <span>{errorMsg}</span>
         <form onSubmit={handleForm}>
           <div>
             <label>Email</label>
